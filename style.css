@@ -59,7 +59,7 @@ main {
 
 .articleTitle {
     font-size: 1.5em;
-    margin: 50px;
+    padding: 50px;
 }
 
 article {
@@ -118,6 +118,11 @@ img:hover {
     flex-direction: column;
 }
 
+.containerSection {
+    display: flex;
+    flex-direction: column;
+}
+
 .asideText {
     font-size: 1.3em;
     line-height: 1.5em;
@@ -142,6 +147,28 @@ img:hover {
 
 .link:after {
     content: '\00A0\1F517';
+}
+
+.pergunta {
+    font-weight: bold;
+}
+
+.pergunta:before {
+    content: '\00A0\2754';
+}
+
+.resposta:before {
+    content: '\00A0\1F7EB';
+}
+
+ul li {
+    text-indent: 1ch;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    list-style-position: inside;
+    list-style: '\2714';
+    margin: 35px;
+    text-align: justify;
 }
 
 @media (max-width: 1280px) {
