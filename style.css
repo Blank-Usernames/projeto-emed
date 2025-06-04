@@ -201,7 +201,7 @@ ul li {
 iframe {
     margin: 40px;
     width: 520px;
-    height: 1000px;
+    height: 695px;
 }
 
 .iframeContainer {
@@ -301,4 +301,16 @@ ul .iframeSelect {
     #titleCuriosidades {
         background-image: none;
     }
+
+    iframe {
+        margin: 40px;
+        width: 90%;
+        height: 695px;
+    }
+
+    .iframeContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
